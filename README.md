@@ -1,3 +1,5 @@
+Links
+Github: https://github.com/dadavemyster/gui-week5/tree/main
 Page: https://dadavemyster.github.io/gui-week5/
 
 Welcome to my HW5 Scrabble Column.
