@@ -1,0 +1,56 @@
+<!doctype html>
+<!-- 
+File: index.html 
+GUI Assignment: HW5 - Scrabble
+David Boulos, UML C.S., David_Boulos@student.uml.edu
+Copyright (c) 2025 by David.  All rights reserved.  May be freely copied or 
+excerpted for educational purposes with credit to the author. 
+Updated by DB on June 30th, 2025 at 10:45 PM
+-->
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Scrabble Mini Game</title>
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<h1>Welcome to Dave's Scrabble Mini Game</h1>
+
+	<div class="center-content">
+	<div id="board-container">
+		<div id="board">
+			<div class="square" data-multiplier="1"></div>
+			<div class="square" data-multiplier="1"></div>
+			<div class="square double-word" data-multiplier="DW"></div>
+			<div class="square" data-multiplier="1"></div>
+			<div class="square" data-multiplier="1"></div>
+			<div class="square" data-multiplier="1"></div>
+			<div class="square double-letter" data-multiplier="2"></div>
+			<div class="square" data-multiplier="1"></div>
+			<div class="square double-letter" data-multiplier="2"></div>
+			<div class="square" data-multiplier="1"></div>
+			<div class="square" data-multiplier="1"></div>
+			<div class="square" data-multiplier="1"></div>
+			<div class="square double-word" data-multiplier="DW"></div>
+			<div class="square" data-multiplier="1"></div>
+			<div class="square" data-multiplier="1"></div>
+		</div>
+	</div>
+
+	<div id="score-display">
+		Score: <span id="score">0</span>
+	</div>
+	<div id="feedback"></div>
+	
+	<div id="rack" class="tile-rack"></div>
+	<button id="resetButton">Clear Board and Deal New Tiles</button>
+
+	
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+	<script src="js/script.js"></script>
+	</div>
+</body>
+</html>
